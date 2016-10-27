@@ -1,0 +1,9 @@
+""" Models """
+
+from google.appengine.ext import ndb
+
+
+class User(ndb.Model):
+    name = ndb.StringProperty()
+    email = ndb.StringProperty()
+    password = ndb.StringProperty()

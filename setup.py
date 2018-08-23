@@ -13,7 +13,7 @@ tests_require = [
 
 
 install_requires = [
-    'Flask==0.11.1',
+    'Flask==0.12.3',
     'flask-apispec==0.3.2',
     'Flask-JWT==0.3.2',
     'flake8',
